@@ -10,9 +10,17 @@ São arquivos de texto. Não instala nada, não roda nada, não depende de plugi
 
 Leva 2 minutos. Não precisa instalar programa nenhum — são arquivos de texto que o Claude Code lê sozinho.
 
-### Passo 1 — copiar
+### Passo 1 — baixar
 
-Copie o **conteúdo** desta pasta para dentro da pasta do seu projeto de análise. Ao final, ele deve ficar assim:
+```bash
+git clone https://github.com/AngeluzziJardim/claude-genomica.git
+```
+
+(Sem Git na máquina? No GitHub: botão verde **Code** → **Download ZIP** → descompactar.)
+
+### Passo 2 — copiar
+
+Copie o **conteúdo** da pasta baixada para dentro da pasta do seu projeto de análise. Ao final, ele deve ficar assim:
 
 ```
 meu-projeto/
@@ -28,7 +36,7 @@ meu-projeto/
 
 Se você já tem um `CLAUDE.md` no projeto, não sobrescreva: cole o conteúdo do novo no topo do seu.
 
-### Passo 2 — abrir o Claude Code nessa pasta
+### Passo 3 — abrir o Claude Code nessa pasta
 
 No terminal, dentro da pasta do projeto:
 
@@ -38,7 +46,7 @@ claude
 
 O `CLAUDE.md` entra em contexto sozinho, toda sessão. Não precisa fazer nada.
 
-### Passo 3 — rodar a configuração inicial, uma vez
+### Passo 4 — rodar a configuração inicial, uma vez
 
 Na primeira conversa, digite:
 
@@ -48,7 +56,7 @@ Na primeira conversa, digite:
 
 Ele faz umas 9 perguntas objetivas sobre seus dados, ferramentas e objetivo, confere o que está instalado na máquina e escreve o `PROJETO.md`. A partir daí você não repete contexto.
 
-### Passo 4 — ler o `docs/00-como-pedir.md`
+### Passo 5 — ler o `docs/00-como-pedir.md`
 
 São 3 minutos. É a parte do problema que está do seu lado do teclado: como formular o pedido para ele não se espalhar. Vale mais do que o resto do kit.
 
