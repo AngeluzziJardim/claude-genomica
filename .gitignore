@@ -1,0 +1,17 @@
+# Dados e resultados nunca entram no Git
+data/
+results/
+logs/
+
+# Ruído
+.DS_Store
+Thumbs.db
+*.log
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Cache local do Claude Code
+.claude/settings.local.json
